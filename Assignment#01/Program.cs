@@ -44,6 +44,21 @@ namespace Assignment_01
 
             #endregion
 
+            #region Question05
+
+            //string input = "swiss";
+            //char firstNonRepeated = Utilities.FindFirstNonRepeatedCharacter(input);
+
+            //if (firstNonRepeated != '\0')
+            //{
+            //    Console.WriteLine($"The first non-repeated character in '{input}' is '{firstNonRepeated}'.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No non-repeated character found.");
+            //}
+            #endregion
+
         }
     }
 }

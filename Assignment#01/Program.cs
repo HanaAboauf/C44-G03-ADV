@@ -16,6 +16,18 @@
             //}
             #endregion
 
+            #region Question03
+
+            //List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            //List<int> evenNumbers = Utilities.GetEvenNumbers(numbers);
+
+            //foreach (var item in evenNumbers)
+            //{
+            //    Console.Write($"{item} ");
+            //}
+            #endregion
+
         }
     }
 }

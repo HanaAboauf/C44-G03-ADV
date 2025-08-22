@@ -115,6 +115,52 @@
 
 
             #endregion
+
+            #region Question04
+
+            //Stack<string> parentheses = new Stack<string>();
+
+            //string input = Console.ReadLine()!;
+
+            //foreach (char item in input)
+            //{
+            //    if (item == '(' || item == '{' || item == '[')
+            //    {
+            //        parentheses.Push(item.ToString());
+            //    }
+            //    else if (item == ')' || item == '}' || item == ']')
+            //    {
+            //        if (parentheses.Count > 0)
+            //        {
+            //            string last = parentheses.Pop();
+            //            if ((last == "(" && item != ')') ||
+            //                (last == "{" && item != '}') ||
+            //                (last == "[" && item != ']'))
+            //            {
+            //                Console.WriteLine("The parentheses are not balanced.");
+            //                return;
+            //            }
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("The parentheses are not balanced.");
+            //            return;
+            //        }
+            //    }
+
+
+            //}
+
+            //if (parentheses.Count == 0)
+            //    Console.WriteLine("The parentheses are balanced.");
+            //else
+            //    Console.WriteLine("The parentheses are not balanced.");
+
+
+
+
+
+            #endregion
         }
     }
 }

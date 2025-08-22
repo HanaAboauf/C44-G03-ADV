@@ -40,6 +40,45 @@
 
             //}
             #endregion
+
+            #region Question02
+
+            //Console.WriteLine("Enter the size of the array: ");
+
+            //int size = int.Parse(Console.ReadLine()!);
+
+            //List<int>numbers = new List<int>(size);
+
+            //for (int i = 0; i < size; i++)
+            //{
+            //    Console.WriteLine($"Enter the number {i + 1}: ");
+            //    numbers.Add(int.Parse(Console.ReadLine()!)); ;
+            //}
+
+            //int mid = size % 2==0?(size/2)+1: size / 2;
+
+            //bool isPalindrome = true;
+
+            //for (int i = 0; i < mid; i++)
+            //{
+            //    if (numbers[i] != numbers[size - 1 - i])
+            //    {
+            //        isPalindrome = false;
+            //        break;
+            //    }
+            //}
+            //if (isPalindrome)
+            //{
+            //    Console.WriteLine("The array is a palindrome.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The array is not a palindrome.");
+            //}
+
+
+
+            #endregion
         }
     }
 }

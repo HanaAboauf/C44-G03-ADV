@@ -42,6 +42,22 @@ namespace Assignment2
             return newList;
 
         }
+
+        public static List<int> RemoveOddNumbers(List<int> list)
+        {
+
+            List<int> newList = new List<int>();
+
+            foreach (int item in list)
+            {
+                if (item%2==0)
+                {
+                    newList.Add(item);
+                }
+            }
+            return newList;
+
+        }
         static void Main(string[] args)
         {
             #region Question01
@@ -192,6 +208,22 @@ namespace Assignment2
             //{
             //    Console.Write($"{number} ");
             //}
+
+            #endregion
+
+            #region Question06
+
+            //List<int> list = new List<int>() { 1, 2, 3, 4, 5, 1, 2, 3 };
+
+            //List<int> newList = RemoveOddNumbers(list);
+
+            //Console.WriteLine("List after removing odd numbers: ");
+
+            //foreach (int number in newList)
+            //{
+            //    Console.Write($"{number} ");
+            //}
+
 
             #endregion
 

@@ -1,4 +1,7 @@
-﻿namespace Assignment2
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Xml.Linq;
+
+namespace Assignment2
 {
 
    
@@ -22,6 +25,21 @@
                 Console.Write($"{stack.Pop()} ");
             }
     
+
+        }
+
+        public static List<T> RemoveDuplicates<T>(List<T> list)
+        {
+
+            List<T>newList= new List<T>();
+
+            foreach (T item in list) {
+                if (!newList.Contains(item))
+                {
+                    newList.Add(item);
+                }
+            }
+            return newList;
 
         }
         static void Main(string[] args)
@@ -161,6 +179,22 @@
 
 
             #endregion
+
+            #region Question05
+
+            //List<int> list = new List<int>() { 1, 2, 3, 4, 5, 1, 2, 3 };
+
+            //List<int> newList = RemoveDuplicates<int>(list);
+
+            //Console.WriteLine("List after removing duplicates: ");
+
+            //foreach (int number in newList)
+            //{
+            //    Console.Write($"{number} ");
+            //}
+
+            #endregion
+
         }
     }
 }

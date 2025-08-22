@@ -1,7 +1,29 @@
 ﻿namespace Assignment2
 {
+
+   
     internal class Program
     {
+
+        public static void ReverseArray<T>(Queue<T>queue)
+        {
+            Queue<T> queue2 = queue;
+
+            Stack<T> stack = new Stack<T>();
+            while (queue2.Count > 0)
+            {
+                stack.Push(queue2.Dequeue());
+            }
+
+            queue2.Clear();
+
+            while (stack.Count > 0)
+            {
+                Console.Write($"{stack.Pop()} ");
+            }
+    
+
+        }
         static void Main(string[] args)
         {
             #region Question01
@@ -76,6 +98,20 @@
             //    Console.WriteLine("The array is not a palindrome.");
             //}
 
+
+
+            #endregion
+
+            #region Question03
+
+            //Queue<int> queue = new Queue<int>();
+
+            //queue.Enqueue(1);
+            //queue.Enqueue(2);
+            //queue.Enqueue(3);
+            //queue.Enqueue(4);
+
+            //ReverseArray<int>(queue);
 
 
             #endregion

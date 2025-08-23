@@ -138,6 +138,33 @@ namespace Assignment2
             Console.WriteLine("No sub list with the given sum found.");
         }
 
+
+       public static Queue<int> ReverseFirstK(Queue<int> queue, int k)
+        {
+            if (queue == null || queue.Count == 0 || k > queue.Count || k <= 0)
+                return queue;
+
+            Stack<int> stack = new Stack<int>();
+
+            for (int i = 0; i < k; i++)
+            {
+                stack.Push(queue.Dequeue());
+            }
+
+            while (stack.Count > 0)
+            {
+                queue.Enqueue(stack.Pop());
+            }
+
+            int remaining = queue.Count - k;
+            for (int i = 0; i < remaining; i++)
+            {
+                queue.Enqueue(queue.Dequeue());
+            }
+
+            return queue;
+        }
+
         static void Main(string[] args)
         {
             #region Question01
@@ -376,6 +403,18 @@ namespace Assignment2
 
             //FindSubListWithSum(arr, target);
 
+            #endregion
+
+            #region Question11
+
+            //Queue<int> queue = new Queue<int>(new int[] { 1, 2, 3, 4, 5 });
+
+            //Console.Write("Enter K: ");
+            //int k = int.Parse(Console.ReadLine()!);
+
+            //Queue<int> result = ReverseFirstK(queue, k);
+
+            //Console.WriteLine("Result: [" + string.Join(", ", result) + "]");
             #endregion
 
 

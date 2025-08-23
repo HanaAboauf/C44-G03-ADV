@@ -58,6 +58,31 @@ namespace Assignment2
             return newList;
 
         }
+        public static void SearchTarget(Stack<int> stack, int target)
+        {
+            int count = 0;
+            bool found = false;
+
+            while (stack.Count > 0)
+            {
+                count++;
+                int current = stack.Pop();
+
+                if (current == target)
+                {
+                    Console.WriteLine($"Target was found successfully and the count = {count}");
+                    found = true;
+                    break;
+                }
+            }
+
+            if (!found)
+            {
+                Console.WriteLine("Target was not found");
+            }
+        }
+
+        }
         static void Main(string[] args)
         {
             #region Question01
@@ -231,7 +256,7 @@ namespace Assignment2
 
             //Queue<object> queue = new Queue<object>();
 
-            
+
             //queue.Enqueue(1);                   
             //queue.Enqueue("Apple");    
             //queue.Enqueue(5.28);       
@@ -241,6 +266,20 @@ namespace Assignment2
             //{
             //    Console.WriteLine(item + " (Type: " + item.GetType().Name + ")");
             //}
+            #endregion
+
+            #region Question08
+
+            //Stack<int> stack = new Stack<int>();
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    stack.Push(i);
+            //}
+
+            //Console.Write("Enter the target number: ");
+            //int target = int.Parse(Console.ReadLine()!);
+            //SearchTarget(stack, target);
             #endregion
 
         }

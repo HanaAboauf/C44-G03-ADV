@@ -227,6 +227,22 @@ namespace Assignment2
 
             #endregion
 
+            #region Question07
+
+            //Queue<object> queue = new Queue<object>();
+
+            
+            //queue.Enqueue(1);                   
+            //queue.Enqueue("Apple");    
+            //queue.Enqueue(5.28);       
+
+            //Console.WriteLine("Queue contents:");
+            //foreach (var item in queue)
+            //{
+            //    Console.WriteLine(item + " (Type: " + item.GetType().Name + ")");
+            //}
+            #endregion
+
         }
     }
 }

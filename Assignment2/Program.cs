@@ -82,6 +82,30 @@ namespace Assignment2
             }
         }
 
+       public static List<int> FindIntersection(int[] arr1, int[] arr2)
+        {
+            Dictionary<int, int> freq = new Dictionary<int, int>();
+            List<int> result = new List<int>();
+
+      
+            foreach (int num in arr1)
+            {
+                if (freq.ContainsKey(num))
+                    freq[num]++;
+                else
+                    freq[num] = 1;
+            }
+
+            foreach (int num in arr2)
+            {
+                if (freq.ContainsKey(num) && freq[num] > 0)
+                {
+                    result.Add(num);
+                    freq[num]--; 
+                }
+            }
+
+            return result;
         }
         static void Main(string[] args)
         {
@@ -280,6 +304,36 @@ namespace Assignment2
             //Console.Write("Enter the target number: ");
             //int target = int.Parse(Console.ReadLine()!);
             //SearchTarget(stack, target);
+            #endregion
+
+            #region Question09
+
+            Console.Write("Enter size of first array: ");
+            int size1 = int.Parse(Console.ReadLine()!);
+            Console.Write("Enter size of second array: ");
+            int size2 = int.Parse(Console.ReadLine()!);
+
+            int[] arr1 = new int[size1];
+            int[] arr2 = new int[size2];
+
+            Console.WriteLine("Enter elements of first array: ");
+            for (int i = 0; i < size1; i++)
+            {
+                arr1[i] = int.Parse(Console.ReadLine()!);
+            }
+
+            Console.WriteLine("Enter elements of second array: ");
+            for (int i = 0; i < size2; i++)
+            {
+                arr2[i] = int.Parse(Console.ReadLine()!);
+            }
+
+            List<int> intersection = FindIntersection(arr1, arr2);
+
+            Console.WriteLine("Intersection: ");
+            Console.WriteLine("[" + string.Join(", ", intersection) + "]");
+
+
             #endregion
 
         }

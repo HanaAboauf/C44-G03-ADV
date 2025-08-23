@@ -107,6 +107,37 @@ namespace Assignment2
 
             return result;
         }
+
+       public static void FindSubListWithSum(List<int> arr, int target)
+        {
+            int start = 0, currSum = 0;
+
+            for (int end = 0; end < arr.Count; end++)
+            {
+                currSum += arr[end];
+
+                while (currSum > target && start < end)
+                {
+                    currSum -= arr[start];
+                    start++;
+                }
+
+                if (currSum == target)
+                {
+                    Console.Write("Contiguous sub list: [");
+                    for (int i = start; i <= end; i++)
+                    {
+                        Console.Write(arr[i]);
+                        if (i < end) Console.Write(", ");
+                    }
+                    Console.WriteLine("]");
+                    return;
+                }
+            }
+
+            Console.WriteLine("No sub list with the given sum found.");
+        }
+
         static void Main(string[] args)
         {
             #region Question01
@@ -335,6 +366,19 @@ namespace Assignment2
 
 
             #endregion
+
+            #region Question10
+
+            //List<int> arr = new List<int> { 1, 2, 3, 7, 5 };
+
+            //Console.Write("Enter target sum: ");
+            //int target = int.Parse(Console.ReadLine()!);
+
+            //FindSubListWithSum(arr, target);
+
+            #endregion
+
+
 
         }
     }

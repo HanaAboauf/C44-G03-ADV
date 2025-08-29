@@ -146,6 +146,41 @@
 
             #endregion
 
+            #region Question07
+
+            //SortedList<int, string> employeeDirectory = new SortedList<int, string>()
+            //{
+            //    { 102, "Alice" },
+            //    { 101, "Bob" },
+            //    { 104, "Charlie" },
+            //    {103, "Diana" }
+            //};
+            //foreach (var kvp in employeeDirectory)
+            //{
+            //    Console.WriteLine($"Employee ID: {kvp.Key}, Name: {kvp.Value}");
+            //}
+
+            //int searchId = 102;
+            //if (employeeDirectory.ContainsKey(searchId))
+            //{
+            //    Console.WriteLine($"\nEmployee with ID {searchId}: {employeeDirectory[searchId]}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"\nEmployee with ID {searchId} not found.");
+            //}
+
+            //employeeDirectory.Remove(101);
+            //Console.WriteLine("\nAfter removing employee with ID 101:");
+
+            //foreach (var kvp in employeeDirectory)
+            //{
+            //    Console.WriteLine($"Employee ID: {kvp.Key}, Name: {kvp.Value}");
+            //}
+
+
+            #endregion
+
         }
     }
 }

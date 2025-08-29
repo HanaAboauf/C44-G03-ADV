@@ -208,7 +208,7 @@
 
             #region Question10
 
-     
+
 
             //Dictionary<string, int> originalHashtable = new Dictionary<string, int>()
             //{
@@ -226,6 +226,18 @@
             //{
             //    Console.WriteLine($"Key: {kvp.Key}, Value: {kvp.Value}");
             //}
+            #endregion
+
+            #region Question11
+
+
+            //HashSet<int> setA = new HashSet<int>() { 1, 2, 3, 4 };
+            //HashSet<int> setB = new HashSet<int>() { 3, 4, 5, 6 };
+            //HashSet<int> unionSet = new HashSet<int>(setA);
+            //unionSet.UnionWith(setB);
+            //Console.WriteLine($"Union of Set A and Set B: {string.Join(", ", unionSet)}");
+
+
             #endregion
 
 

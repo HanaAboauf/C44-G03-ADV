@@ -240,6 +240,30 @@
 
             #endregion
 
+            #region Question12
+
+            //Dictionary<string, int> hashtable = new Dictionary<string, int>()
+            //    {
+            //    { "apple", 10 },
+            //    { "banana", 20 },
+            //    { "apricot", 15 },
+            //    { "blueberry", 25 },
+            //    { "avocado", 30 }
+            //};
+            //Console.Write("Enter target character: ");
+            //char targetChar = Char.Parse(Console.ReadLine()!);
+            //int count = 0;
+            //foreach (var kvp in hashtable)
+            //{
+            //    if (kvp.Key.StartsWith(targetChar))
+            //    {
+            //        count++;
+            //    }
+            //}
+            //Console.WriteLine($"Number of keys starting with '{targetChar}': {count}");
+
+            #endregion
+
 
 
         }

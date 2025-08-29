@@ -81,6 +81,52 @@
             //}
 
             #endregion
+
+            #region Question04
+
+
+            //string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
+            //Dictionary<string, List<string>> anagramGroups = new Dictionary<string, List<string>>();
+            //foreach (string str in strs)
+            //{
+            //    char[] charArray = str.ToCharArray();
+            //    Array.Sort(charArray);
+            //    string sortedStr = new string(charArray);
+            //    if (anagramGroups.ContainsKey(sortedStr))
+            //    {
+            //        anagramGroups[sortedStr].Add(str);
+            //    }
+            //    else
+            //    {
+            //        anagramGroups[sortedStr] = new List<string> { str };
+            //    }
+            //}
+            //foreach (var group in anagramGroups.Values)
+            //{
+            //    Console.WriteLine($"[{string.Join(", ", group)}]");
+            //}
+
+
+
+            #endregion
+
+            #region Question05
+
+            //int[] nums = { 1, 2, 3, 1 };
+            //HashSet<int> seenNumbers = new HashSet<int>();
+            //bool hasDuplicates = false;
+            //foreach (int num in nums)
+            //{
+            //    if (seenNumbers.Contains(num))
+            //    {
+            //        hasDuplicates = true;
+            //        break;
+            //    }
+            //    seenNumbers.Add(num);
+            //}
+            //Console.WriteLine(hasDuplicates ? "Array contains duplicates" : "No duplicates found");
+            #endregion
+
         }
     }
 }

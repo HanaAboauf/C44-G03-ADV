@@ -282,6 +282,29 @@
 
             #endregion
 
+            #region Question14
+
+
+            //SortedList<int, int> sortedList = new SortedList<int, int>()
+            //    {
+            //    { 1, 10 },
+            //    { 2, 15 },
+            //    { 3, 20 },
+            //    { 4, 25 },
+            //    { 5, 30 }
+            //};
+            //List<int> keysWithEvenValues = new List<int>();
+
+            //foreach (var kvp in sortedList)
+            //{
+            //    if (kvp.Value % 2 == 0)
+            //    {
+            //        keysWithEvenValues.Add(kvp.Key);
+            //    }
+            //}
+            //Console.WriteLine($"Keys with even values: {string.Join(", ", keysWithEvenValues)}");
+            #endregion
+
 
 
         }

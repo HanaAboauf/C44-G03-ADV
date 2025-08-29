@@ -181,6 +181,24 @@
 
             #endregion
 
+            #region Question08
+
+            //int[] arr = { 1, 2, 4, 6, 3, 7, 8 };
+            //int n = 8; 
+            //HashSet<int> numberSet = new HashSet<int>(arr);
+            //List<int> missingNumbers = new List<int>();
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    if (!numberSet.Contains(i))
+            //    {
+            //        missingNumbers.Add(i);
+            //    }
+            //}
+            //Console.WriteLine($"Missing numbers: {string.Join(", ", missingNumbers)}");
+            #endregion
+
+
+
         }
     }
 }

@@ -197,6 +197,15 @@
             //Console.WriteLine($"Missing numbers: {string.Join(", ", missingNumbers)}");
             #endregion
 
+            #region Question09
+
+
+            //int[] numbers = { 1, 2, 2, 3, 4, 4, 5 };
+            //HashSet<int> uniqueNumbers = new HashSet<int>(numbers);
+            //Console.WriteLine($"Unique numbers: {string.Join(", ", uniqueNumbers)}");
+
+            #endregion
+
 
 
         }

@@ -127,6 +127,25 @@
             //Console.WriteLine(hasDuplicates ? "Array contains duplicates" : "No duplicates found");
             #endregion
 
+            #region Question06
+
+            //SortedDictionary<int, string> studentDirectory = new SortedDictionary<int, string>() {
+            //    { 100, "John" },
+            //    {104, "Emma" },
+            //    {103, "David" },
+            //    {102, "Sophia" }
+
+
+            //};
+            //studentDirectory.Remove(103);
+
+            //foreach (var kvp in studentDirectory)
+            //{
+            //    Console.WriteLine($"Student ID: {kvp.Key}, Name: {kvp.Value}");
+            //}
+
+            #endregion
+
         }
     }
 }

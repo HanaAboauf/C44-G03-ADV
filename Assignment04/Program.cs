@@ -206,6 +206,28 @@
 
             #endregion
 
+            #region Question10
+
+     
+
+            //Dictionary<string, int> originalHashtable = new Dictionary<string, int>()
+            //{
+            //    { "a", 10 },
+            //    { "b", 20 },
+            //    {"c", 30 }
+
+            //};
+            //Dictionary<int, string> swappedHashtable = new Dictionary<int, string>();
+            //foreach (var kvp in originalHashtable)
+            //{
+            //    swappedHashtable[kvp.Value] = kvp.Key;
+            //}
+            //foreach (var kvp in swappedHashtable)
+            //{
+            //    Console.WriteLine($"Key: {kvp.Key}, Value: {kvp.Value}");
+            //}
+            #endregion
+
 
 
         }

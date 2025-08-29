@@ -264,6 +264,24 @@
 
             #endregion
 
+            #region Question13
+
+            SortedSet<int> sortedSet = new SortedSet<int>() { 1, 3, 5, 7, 9, 11 };
+
+            Console.Write("Enter target integer: ");
+            int target = int.Parse(Console.ReadLine()!);
+            List<int> greaterElements = new List<int>();
+            foreach (int num in sortedSet)
+            {
+                if (num > target)
+                {
+                    greaterElements.Add(num);
+                }
+            }
+            Console.WriteLine($"Elements greater than {target}: {string.Join(", ", greaterElements)}");
+
+            #endregion
+
 
 
         }

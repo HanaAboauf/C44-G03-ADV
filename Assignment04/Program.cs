@@ -50,6 +50,37 @@
 
 
             #endregion
+
+            #region Question03
+
+            //Dictionary<string, int> hashtable = new Dictionary<string, int>()
+            //{
+            //    { "a", 10 },
+            //    { "b", 20 },
+            //    { "c", 15 },
+            //    { "d", 10 },
+            //    {"e", 30 }
+            //};
+            //Console.Write("Enter target value: ");
+            //int targetValue = int.Parse(Console.ReadLine()!);
+            //List<string> keysWithTargetValue = new List<string>();
+            //foreach (var kvp in hashtable)
+            //{
+            //    if (kvp.Value == targetValue)
+            //    {
+            //        keysWithTargetValue.Add(kvp.Key);
+            //    }
+            //}
+            //if (keysWithTargetValue.Count > 0)
+            //{
+            //    Console.WriteLine($"Keys with value {targetValue}: {string.Join(", ", keysWithTargetValue)}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Key not found");
+            //}
+
+            #endregion
         }
     }
 }
